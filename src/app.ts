@@ -92,4 +92,5 @@ initializeClient();
 // Socket.IO
 io.on('connection', (socket) => {
   console.log('Novo cliente conectado ao socket');
+  
 });
